@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T06:00:29.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fY2HQcatlp8tCatpLnMw" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T06:45:27.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="L-3E_bzto5R_K5omgnLx" version="16.1.2" type="github">
   <diagram id="zP6RjNPkn6GrBEBoxFj2" name="第 1 页">
     <mxGraphModel dx="1298" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -86,6 +86,72 @@
         </mxCell>
         <mxCell id="Wyo7XhZk46NIyAMNXEED-32" value="ctx.write(DefaultHttp2DataFrame)&lt;br&gt;DefaultHttp2HeadersFrame" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="905" y="680" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-36" value="客户端发送数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-37" target="Wyo7XhZk46NIyAMNXEED-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-37" target="Wyo7XhZk46NIyAMNXEED-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-37" value="TripleHttp2ClientResponseHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-38" target="Wyo7XhZk46NIyAMNXEED-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-38" value="Http2HeadersFrame" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-40" value="clientStream.inboundTransportObserver()&lt;br&gt;ClientUnaryInboundTransportObserver" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="882.5" width="320" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-43" target="Wyo7XhZk46NIyAMNXEED-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-43" value="Http2DataFrame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-45" target="Wyo7XhZk46NIyAMNXEED-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-45" value="Http2DataFrame.content()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1010" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-47" target="Wyo7XhZk46NIyAMNXEED-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-47" value="GrpcDataDecoder&lt;br&gt;decompress" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-49" target="Wyo7XhZk46NIyAMNXEED-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-49" value="TripleClientInboundHandler" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1150" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-51" target="Wyo7XhZk46NIyAMNXEED-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-51" value="clientStream.inboundTransportObserver()&lt;br&gt;ClientUnaryInboundTransportObserver" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1150" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wyo7XhZk46NIyAMNXEED-53" target="Wyo7XhZk46NIyAMNXEED-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-53" value="暂存metaData/body&lt;br&gt;解序列化，或者protobuf" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-55" value="DefaultFuture2.received(getConnection(), response)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1150" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-57" value="客户端接收数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="812" width="130" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Wyo7XhZk46NIyAMNXEED-58" value="一个request对应构建一个client stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="187" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
