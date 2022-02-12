@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T05:02:14.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.3" etag="n7mXuWbjKhbfcQZlKbm9" type="github"><diagram id="FrFOpQUMIaug93Qunv3N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-12T05:19:59.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="soDdPumyjH4EZaMQT8uT" version="16.5.3" type="github">
+  <diagram id="FrFOpQUMIaug93Qunv3N" name="第 1 页">
+    <mxGraphModel dx="1298" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-11" target="fkgT6IiWk16MbOUFIoM1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-11" value="&lt;span style=&quot;font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgba(0 , 0 , 0 , 0.05)&quot;&gt;SpringApplicationRunListeners&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-12" target="fkgT6IiWk16MbOUFIoM1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-16" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fkgT6IiWk16MbOUFIoM1-15">
+          <mxGeometry x="-0.1243" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-12" value="&lt;span style=&quot;color: rgb(77 , 77 , 77) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SpringApplicationRunListener&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="362.5" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-14" target="fkgT6IiWk16MbOUFIoM1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-14" target="fkgT6IiWk16MbOUFIoM1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-30" value="转发event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fkgT6IiWk16MbOUFIoM1-29">
+          <mxGeometry x="-0.0824" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-14" value="&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: 14px ; font-weight: 700 ; background-color: rgb(239 , 243 , 245)&quot;&gt;EventPublishingRunListener&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="520" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-17" target="fkgT6IiWk16MbOUFIoM1-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="948" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-35" value="处理event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fkgT6IiWk16MbOUFIoM1-34">
+          <mxGeometry x="-0.2702" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-17" value="&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicationStartingEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(247 , 247 , 247)&quot;&gt;ApplicationEnvironmentPreparedEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicationContextInitializedEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(247 , 247 , 247)&quot;&gt;ApplicationPreparedEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicationStartedEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(247 , 247 , 247)&quot;&gt;ApplicationReadyEvent&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicationFailedEvent&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: , &amp;#34;sf ui text&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="465" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="fkgT6IiWk16MbOUFIoM1-26" target="fkgT6IiWk16MbOUFIoM1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-33" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fkgT6IiWk16MbOUFIoM1-32">
+          <mxGeometry x="-0.1871" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-26" value="ApplicationListener" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkgT6IiWk16MbOUFIoM1-31" value="&lt;span style=&quot;background-color: rgba(0 , 0 , 0 , 0.05)&quot;&gt;&lt;font face=&quot;source code pro, dejavu sans mono, ubuntu mono, anonymous pro, droid sans mono, menlo, monaco, consolas, inconsolata, courier, monospace, pingfang sc, microsoft yahei, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;BootstrapApplicationListener&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;source code pro, dejavu sans mono, ubuntu mono, anonymous pro, droid sans mono, menlo, monaco, consolas, inconsolata, courier, monospace, pingfang sc, microsoft yahei, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;ConfigFileApplicationListener&lt;br&gt;&lt;/span&gt;&lt;/font&gt;LoggingApplicationListener&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="890" width="300" height="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
