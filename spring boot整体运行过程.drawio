@@ -1,149 +1,172 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T14:15:20.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="dLeeuUPJGPhHLUOPw3JE" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T09:24:30.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="QsFq2Z7bivfgtDVQqSDt" version="16.5.6" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2125" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-1" target="Ubx69jefZDyjw2Y8VgKQ-2">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-1" target="Ubx69jefZDyjw2Y8VgKQ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-2" target="Ubx69jefZDyjw2Y8VgKQ-14">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-2" target="Ubx69jefZDyjw2Y8VgKQ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-2" value="starting" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-2" value="starting" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-6">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-17">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-19">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-23">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-4" target="Ubx69jefZDyjw2Y8VgKQ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-4" value="2. 创建environment，发送environmentPrepared事件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-4" value="2. 创建environment，发送environmentPrepared事件" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="470" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-6" target="Ubx69jefZDyjw2Y8VgKQ-8">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-6" target="Ubx69jefZDyjw2Y8VgKQ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-6" value="3. BootstrapApplicationListener：基于bootstrap.yaml和BootstrapConfiguration SPI构建Spring Cloud ApplicationContext" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-6" value="3. BootstrapApplicationListener：基于bootstrap.yaml和BootstrapConfiguration SPI构建Spring Cloud ApplicationContext" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-110" y="585" width="270" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-8" target="Ubx69jefZDyjw2Y8VgKQ-10">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-8" target="Ubx69jefZDyjw2Y8VgKQ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-8" value="添加AncestorInitializer到spring boot SpringApplication" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-8" value="添加AncestorInitializer到spring boot SpringApplication" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-35" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-10" target="Ubx69jefZDyjw2Y8VgKQ-12">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-10" target="Ubx69jefZDyjw2Y8VgKQ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-10" value="bootstrap.yaml等配置加载到spring boot environment" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-10" value="bootstrap.yaml等配置加载到spring boot environment" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-35" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-12" target="Ubx69jefZDyjw2Y8VgKQ-25">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-12" target="Ubx69jefZDyjw2Y8VgKQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-12" value="&lt;div&gt;spring cloud所有的ApplicationContextInitializer类型的bean，添加到spring boot application中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-12" value="&lt;div&gt;spring cloud所有的ApplicationContextInitializer类型的bean，添加到spring boot application中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-157.5" y="920" width="365" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-14" target="Ubx69jefZDyjw2Y8VgKQ-4">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-14" target="Ubx69jefZDyjw2Y8VgKQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-14" value="1. LoggingApplicationListener确定日志系统" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-14" value="1. LoggingApplicationListener确定日志系统" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="360" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-17" target="Ubx69jefZDyjw2Y8VgKQ-25">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-17" target="Ubx69jefZDyjw2Y8VgKQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-17" value="4. LoggingSystemShutdownListener：重新确定使用的日志系统" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-17" value="4. LoggingSystemShutdownListener：重新确定使用的日志系统" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="260" y="582.5" width="260" height="55.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-19" target="Ubx69jefZDyjw2Y8VgKQ-25">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-19" target="Ubx69jefZDyjw2Y8VgKQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-19" value="5. ConfigFileApplicationListener：加载application.yaml" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-19" value="5. ConfigFileApplicationListener：加载application.yaml" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="530" y="583.25" width="180" height="59.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-23" target="Ubx69jefZDyjw2Y8VgKQ-25">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-23" target="Ubx69jefZDyjw2Y8VgKQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-23" value="6. LoggingApplicationListener：设置日志级别和日志文件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-23" value="6. LoggingApplicationListener：设置日志级别和日志文件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="760" y="580.5" width="200" height="59.5" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-25" target="Ubx69jefZDyjw2Y8VgKQ-32">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-25" target="Ubx69jefZDyjw2Y8VgKQ-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-25" value="7. 打印spring boot banner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-25" value="7. 打印spring boot banner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="400" y="790" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-30" target="Ubx69jefZDyjw2Y8VgKQ-35">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-30" target="Ubx69jefZDyjw2Y8VgKQ-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-30" target="Ubx69jefZDyjw2Y8VgKQ-36">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-30" target="Ubx69jefZDyjw2Y8VgKQ-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-30" value="9. 运行ApplicationContextInitializer" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-30" value="9. 运行ApplicationContextInitializer" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="425" y="1030" width="190" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-32" target="Ubx69jefZDyjw2Y8VgKQ-30">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-32" target="Ubx69jefZDyjw2Y8VgKQ-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-32" value="&lt;span&gt;8. 初始化spring boot ApplicationContext，并设置environment&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-32" value="&lt;span&gt;8. 初始化spring boot ApplicationContext，并设置environment&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="375" y="915" width="290" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-35" target="Ubx69jefZDyjw2Y8VgKQ-44">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-35" target="Ubx69jefZDyjw2Y8VgKQ-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-35" value="&lt;span&gt;10. AncestorInitializer：设置父context为spring cloud context，保证spring boot能利用spring cloud基础设施&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-35" value="&lt;span&gt;10. AncestorInitializer：设置父context为spring cloud context，保证spring boot能利用spring cloud基础设施&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="200" y="1210" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-36" target="Ubx69jefZDyjw2Y8VgKQ-44">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-36" target="Ubx69jefZDyjw2Y8VgKQ-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-36" value="11. PropertySourceBootstrapConfiguration：将spring cloud PropertySourceLocator加载的所有的外部配置，添加到spring boot容器的environment中，默认加在最前面，最后根据远程配置，重新初始化日志系统和日志级别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-36" value="11. PropertySourceBootstrapConfiguration：将spring cloud PropertySourceLocator加载的所有的外部配置，添加到spring boot容器的environment中，默认加在最前面，最后根据远程配置，重新初始化日志系统和日志级别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="540" y="1180" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-42" target="Ubx69jefZDyjw2Y8VgKQ-45">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-42" target="Ubx69jefZDyjw2Y8VgKQ-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-42" value="&lt;div&gt;13. 注册main方法所在类为bean definition&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-42" value="&lt;div&gt;13. 注册main方法所在类为bean definition&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-44" target="Ubx69jefZDyjw2Y8VgKQ-42">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-44" target="Ubx69jefZDyjw2Y8VgKQ-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-44" value="&lt;div&gt;12. 触发contextPrepared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-44" value="&lt;div&gt;12. 触发contextPrepared&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-45" target="Ubx69jefZDyjw2Y8VgKQ-46">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-45" target="Ubx69jefZDyjw2Y8VgKQ-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-45" value="&lt;div&gt;&lt;div&gt;14. 触发contextLoaded&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-45" value="&lt;div&gt;&lt;div&gt;14. 触发contextLoaded&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-46" target="Ubx69jefZDyjw2Y8VgKQ-47">
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-46" target="Yk0uMOp4Qbx4AJoPfl1W-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-46" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;15. 刷新ApplicationContext，加载非懒加载单例bean&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-46" target="Yk0uMOp4Qbx4AJoPfl1W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-46" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;15. 刷新ApplicationContext，加载非懒加载单例bean&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-47" target="Ubx69jefZDyjw2Y8VgKQ-48">
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ubx69jefZDyjw2Y8VgKQ-47" target="Ubx69jefZDyjw2Y8VgKQ-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-47" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;16. 运行所有的ApplicationRunner和CommandLineRunner类型的bean&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1445" width="160" height="70" as="geometry" />
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-47" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;19. 运行所有的ApplicationRunner和CommandLineRunner类型的bean&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="1759" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-48" value="17. 触发ApplicationReadyEvent事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1450" width="150" height="60" as="geometry" />
+        <mxCell id="Ubx69jefZDyjw2Y8VgKQ-48" value="20. 触发ApplicationReadyEvent事件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1764" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-1" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;16.@ComponentScan默认扫描main类所在的业务包注册成bean&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yk0uMOp4Qbx4AJoPfl1W-3" target="Yk0uMOp4Qbx4AJoPfl1W-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1690" />
+              <mxPoint x="645" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-3" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;17.加载自动化配置类，处理对应的@Bean方法，注册为bean&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yk0uMOp4Qbx4AJoPfl1W-4" target="Ubx69jefZDyjw2Y8VgKQ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk0uMOp4Qbx4AJoPfl1W-4" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;18.调用context.registerShutdownHook()&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1754" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
