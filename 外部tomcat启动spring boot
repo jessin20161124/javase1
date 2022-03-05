@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T14:30:09.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="vTuFQpANK8AsIUA4XYpN" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T15:02:17.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="2yshW5ZThk6cQBIvftwb" version="16.6.4" type="github">
   <diagram id="FIAS9_MZ0sOCZ8tA-OVP" name="第 1 页">
     <mxGraphModel dx="1298" dy="2425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="3YjlWKs9vLh4lUTBMsKp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3YjlWKs9vLh4lUTBMsKp-33" target="3YjlWKs9vLh4lUTBMsKp-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3YjlWKs9vLh4lUTBMsKp-33" value="在onRefresh时，创建并基于environment配置&lt;br&gt;tomcat容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="3YjlWKs9vLh4lUTBMsKp-33" value="创建并基于environment配置&lt;br&gt;tomcat容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1240" y="140" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3YjlWKs9vLh4lUTBMsKp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3YjlWKs9vLh4lUTBMsKp-34" target="3YjlWKs9vLh4lUTBMsKp-37">
@@ -143,13 +143,13 @@
         <mxCell id="3YjlWKs9vLh4lUTBMsKp-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1100" y="-180" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3YjlWKs9vLh4lUTBMsKp-56" value="外部tomcat逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3YjlWKs9vLh4lUTBMsKp-56" value="外部tomcat特有逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="-175" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3YjlWKs9vLh4lUTBMsKp-57" value="公共逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="-175" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3YjlWKs9vLh4lUTBMsKp-58" value="内嵌tomcat逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3YjlWKs9vLh4lUTBMsKp-58" value="内嵌tomcat特有逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="-175" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
