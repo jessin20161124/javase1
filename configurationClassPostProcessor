@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T13:21:29.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="YaBPORUrWY3s0YbaWEEP" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T13:31:40.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="_wx_3SSU3ufFXIq1eItn" version="16.6.6" type="github">
   <diagram id="EH8JZWi1SJ8JwRiIvVBW" name="第 1 页">
     <mxGraphModel dx="2572" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-28" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="45" y="1050" width="870" height="360" as="geometry" />
+          <mxGeometry x="40" y="1040" width="870" height="360" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-10" value="处理sourceClass中的内部类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-28">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -114,8 +114,8 @@
         <mxCell id="98S28VfQ0QPLIXdQOusJ-128" value="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="98S28VfQ0QPLIXdQOusJ-28" source="98S28VfQ0QPLIXdQOusJ-12" target="98S28VfQ0QPLIXdQOusJ-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="170" />
-              <mxPoint x="620" y="170" />
+              <mxPoint x="470" y="190" />
+              <mxPoint x="470" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -134,10 +134,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-13" value="处理sourceClass上的Import注解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-28">
-          <mxGeometry x="560" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;处理sourceClass的注解ImportResource&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-28">
-          <mxGeometry x="270" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;处理sourceClass的@Bean方法&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-28">
           <mxGeometry x="40" y="220" width="120" height="60" as="geometry" />
@@ -194,30 +194,17 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-68" target="98S28VfQ0QPLIXdQOusJ-69">
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-68" target="98S28VfQ0QPLIXdQOusJ-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-68" value="load file resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1210" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-69" target="98S28VfQ0QPLIXdQOusJ-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-69" value="ASM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-12" target="98S28VfQ0QPLIXdQOusJ-68">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1210" y="1130" />
-              <mxPoint x="1210" y="1240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-73" value="6. conditional pass" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="98S28VfQ0QPLIXdQOusJ-72">
-          <mxGeometry x="0.0846" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1290" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-79" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="45" y="1490" width="950" height="400" as="geometry" />
@@ -287,7 +274,7 @@
         <mxCell id="98S28VfQ0QPLIXdQOusJ-104" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="700" width="880" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-105" value="register importedBy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-104">
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-105" value="register importedBy&lt;br&gt;如内部类、自动化配置类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-104">
           <mxGeometry x="35" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-106" value="loadBeanDefinitionsForBeanMethod&lt;br&gt;REGISTER_BEAN conditional&lt;br&gt;ConfigurationClassBeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-104">
@@ -302,14 +289,14 @@
         <mxCell id="98S28VfQ0QPLIXdQOusJ-109" value="loadBeanDefinitionsFromRegistrars" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="98S28VfQ0QPLIXdQOusJ-104">
           <mxGeometry x="650" y="45" width="200" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-110" value="@Configuration类替换为cglib增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-110" value="@Configuration full类替换为cglib增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="98S28VfQ0QPLIXdQOusJ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-13" target="98S28VfQ0QPLIXdQOusJ-79">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="665" y="1440" />
-              <mxPoint x="520" y="1440" />
+              <mxPoint x="520" y="1360" />
+              <mxPoint x="520" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -342,8 +329,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="98S28VfQ0QPLIXdQOusJ-139" value="新增的配置类，继续parse/register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-139" value="新增的未解析的配置类，继续parse/register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98S28VfQ0QPLIXdQOusJ-12" target="98S28VfQ0QPLIXdQOusJ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98S28VfQ0QPLIXdQOusJ-143" value="6. conditional pass" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="98S28VfQ0QPLIXdQOusJ-142">
+          <mxGeometry x="0.3218" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
