@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T14:49:31.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="v8lC1cN5N49WchSy_k4j" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T15:11:01.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="K8UKnfUOKYeoETtfuA_P" version="20.2.4" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
     <mxGraphModel dx="2597" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
         <mxCell id="NtYE-VMm6slHbtxHCwFV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-2" value="coordinator.ensureCoordinatorReady()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-2" value="coordinator.ensureCoordinatorReady()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-280" y="415" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-5">
@@ -91,8 +91,8 @@
         <mxCell id="NtYE-VMm6slHbtxHCwFV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-4" value="当coordinator不存在时或者不可用时，找到client中负载最小节点，发送GROUP_COORDINATOR&lt;br&gt;request（groupId）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="235" width="290" height="125" as="geometry" />
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-4" value="当coordinator不存在时或者不可用时，找到client中负载最小节点，发送GROUP_COORDINATOR&lt;br&gt;request（groupId）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="235" width="290" height="125" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-5" value="立马建立连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-810" y="600" width="120" height="60" as="geometry" />
@@ -163,7 +163,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-34" value="携带每个consumer支持的partition assignor list和对应的user metadata，带上对应的sessionTimeoutMs&lt;br&gt;JoinGroupRequest(groupId,this.sessionTimeoutMs,this.memberId,&lt;br&gt;protocolType(),metadata());" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-34" value="携带每个consumer支持的partition assignor list和对应的user metadata，带上对应的sessionTimeoutMs，订阅的topic list&lt;br&gt;JoinGroupRequest(groupId,this.sessionTimeoutMs,this.memberId,&lt;br&gt;protocolType(),metadata());" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-795" y="1500" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-41">
@@ -339,9 +339,6 @@
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-89" value="fetcher.fetchedRecords()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1660" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-91" value="consumer&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="2170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-98" value="阻塞得到响应" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-94" target="NtYE-VMm6slHbtxHCwFV-97">
           <mxGeometry relative="1" as="geometry" />
