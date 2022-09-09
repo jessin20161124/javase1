@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T14:15:47.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ypgv-5et5UZKVn-tPk3P" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T14:49:31.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="v8lC1cN5N49WchSy_k4j" version="20.2.4" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
-    <mxGraphModel dx="2597" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2597" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IlKKcgGs-gU_iAphdW2g-2" value="ConsumerNetworkClient" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="IlKKcgGs-gU_iAphdW2g-2" value="ConsumerNetworkClient&lt;br&gt;带有定时任务添加功能和缓冲区功能" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IlKKcgGs-gU_iAphdW2g-4" target="IlKKcgGs-gU_iAphdW2g-11" edge="1">
@@ -47,7 +47,7 @@
         <mxCell id="IlKKcgGs-gU_iAphdW2g-15" value="NetworkClient" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IlKKcgGs-gU_iAphdW2g-19" value="监听到metadata订阅的topic分区有变化时，设置需要重新分配needsPartitionAssignment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="IlKKcgGs-gU_iAphdW2g-19" value="监听到metadata订阅的topic分区有变化时，设置需要重新分配needsPartitionAssignment=true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="470" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-21" value="保存需要订阅的topic&lt;br&gt;subscription set" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -140,8 +140,8 @@
         <mxCell id="NtYE-VMm6slHbtxHCwFV-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-29" target="NtYE-VMm6slHbtxHCwFV-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-29" value="2. 当需要重新加入group&lt;br&gt;rejoinNeeded==true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="865" width="200" height="50" as="geometry" />
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-29" value="2. 当需要重新加入group&lt;br&gt;rejoinNeeded==true(例如memberId/generation不可识别) || needsFetchCommittedOffsets=true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="830" width="280" height="85" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-30" target="NtYE-VMm6slHbtxHCwFV-32">
           <mxGeometry relative="1" as="geometry" />
@@ -187,7 +187,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-36" value="响应得到当前KafkaConsumer实例的memberId，generation，&lt;br&gt;group protocol是分区策略的name，assignor" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-36" value="响应得到当前KafkaConsumer实例的memberId，新的generation，&lt;br&gt;group protocol是分区策略的name，assignor" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-795" y="1640" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-44">
@@ -270,7 +270,7 @@
         <mxCell id="NtYE-VMm6slHbtxHCwFV-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-70" target="NtYE-VMm6slHbtxHCwFV-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-70" value="对于未消费过的分区，使用latest，抓取最新的分区offset，设置的是position；对于已经commit过的，使用commit信息更新position&lt;br&gt;fetcher.updateFetchPositions(partitions);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-70" value="对于未消费过的分区，使用latest，向leader节点发送LIST_OFFSETS请求，抓取最新的分区写入offset，设置position；对于已经commit过的，使用commit信息更新position&lt;br&gt;fetcher.updateFetchPositions(partitions);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-290" y="1040" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-72" target="NtYE-VMm6slHbtxHCwFV-74">
