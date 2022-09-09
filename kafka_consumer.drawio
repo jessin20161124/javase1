@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T11:43:36.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ow4belY777n3i1jvDSnB" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T12:45:07.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MW1_Ua85UQveIsreQspX" version="20.2.4" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
-    <mxGraphModel dx="1770" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2597" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
           <mxGeometry x="600" y="190" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-7" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="590" width="330" height="120" as="geometry" />
+          <mxGeometry x="280" y="590" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-9" value="Metadata&lt;br&gt;关注的topic&lt;br&gt;topics" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="470" width="120" height="60" as="geometry" />
@@ -51,7 +51,7 @@
           <mxGeometry x="40" y="470" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-21" value="保存需要订阅的topic&lt;br&gt;subscription set" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IlKKcgGs-gU_iAphdW2g-22" value="SubscriptionState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="550" width="140" height="30" as="geometry" />
@@ -65,8 +65,187 @@
         <mxCell id="IlKKcgGs-gU_iAphdW2g-23" value="KafkaConsumer&lt;br&gt;线程不安全" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="275" width="120" height="60" as="geometry" />
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-1" target="NtYE-VMm6slHbtxHCwFV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-1" value="pollOnce()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-2" value="coordinator.ensureCoordinatorReady()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="415" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-7" value="成功获取后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-6">
+          <mxGeometry x="-0.0489" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-4" value="当coordinator不存在时或者不可用时，找到client中负载最小节点，发送GROUP_COORDINATOR&lt;br&gt;request（groupId）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="415" width="290" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-5" value="立马建立连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-9" target="NtYE-VMm6slHbtxHCwFV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-9" value="NetworkClient.poll立马将请求发送出去" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="582.5" width="120" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NtYE-VMm6slHbtxHCwFV-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-435" y="750" />
+              <mxPoint x="-435" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-17" target="NtYE-VMm6slHbtxHCwFV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-17" value="不断poll，直到收到响应" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="700" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="890" />
+              <mxPoint x="-320" y="480" />
+              <mxPoint x="-370" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-22" value="不断循环，直到得到coordinator" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="840" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-27" value="对于自动分区&lt;br&gt;coordinator.ensurePartitionAssignment" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="555" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-29" target="NtYE-VMm6slHbtxHCwFV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-29" value="当需要重新加入group" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1070" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-30" target="NtYE-VMm6slHbtxHCwFV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-30" value="ensureCoordinatorReady" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-32" target="NtYE-VMm6slHbtxHCwFV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-32" value="给coordinator发送JOIN_GROUP请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-34" target="NtYE-VMm6slHbtxHCwFV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-38" value="join group成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-37">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-34" value="携带每个consumer支持的partition assignor list和对应的user metadata，带上对应的sessionTimeoutMs" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="1500" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-43" value="如果当前consumer被选为leader&lt;br&gt;memberId==leaderId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-42">
+          <mxGeometry x="-0.3034" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.91;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-430" y="1980" />
+              <mxPoint x="-496" y="1980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-57" value="非leader，groupAssignment传递空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-56">
+          <mxGeometry x="-0.6701" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-36" value="响应得到当前KafkaConsumer实例的memberId，generation，&lt;br&gt;group protocol是分区策略的name，assignor" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="1640" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-41" value="根据选定的assignor&lt;span style=&quot;font-size: 10px;&quot;&gt;，以及当前group memberId以及订阅的topic list + user_data，&lt;/span&gt;执行分区分配" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1820" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-44" target="NtYE-VMm6slHbtxHCwFV-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-44" value="发送sync group request&lt;br&gt;SyncGroupRequest(groupId, generation, memberId, groupAssignment)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2080" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-46" target="NtYE-VMm6slHbtxHCwFV-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-46" value="得到当前consumer分配结果" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="2170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-48" target="NtYE-VMm6slHbtxHCwFV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-48" value="当前group所有订阅的topic:&lt;br&gt;subscriptions.groupSubscribe" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="1820" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-50" target="NtYE-VMm6slHbtxHCwFV-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-50" value="leader会关注整个group，所有的订阅的topic&lt;br&gt;metadata.setTopics(&lt;br&gt;this.subscriptions.groupSubscription())" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1820" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-52" target="NtYE-VMm6slHbtxHCwFV-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-52" value="等待metadata请求发出去，并得到响应，得到更新client.ensureFreshMetadata()" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1820" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-54" value="该assignor根据cluster详细元信息，member以及对应订阅的topic进行分配，得到group里每个member的topic_partition list" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1820" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-58" target="NtYE-VMm6slHbtxHCwFV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-58" value="更新consumer的消费的topic_partition列表：&lt;br&gt;subscriptions.assignFromSubscribed(assignment.partitions());" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-692.5" y="2310" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-60" value="当前consumer订阅tp以及对应的订阅状态，offset&lt;br&gt;Map&amp;lt;TopicPartition, TopicPartitionState&amp;gt; assignment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-61" target="NtYE-VMm6slHbtxHCwFV-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-61" value="如果开启自动提交offset，&lt;br&gt;autoCommitTask.reschedule" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="2450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-63" value="ConsumerRebalanceListener&lt;br&gt;#onPartitionsAssigned" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-742.5" y="2590" width="255" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
