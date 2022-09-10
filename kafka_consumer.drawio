@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T15:11:01.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="K8UKnfUOKYeoETtfuA_P" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-10T02:09:47.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EBhq2IO4nGCiPgvcw4kT" version="20.2.4" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
     <mxGraphModel dx="2597" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -384,6 +384,46 @@
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-110" value="给coordinator发送OFFSET_FETCH&lt;br&gt;groupId，待获取消费位置的partitions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-300" y="915" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-115" target="NtYE-VMm6slHbtxHCwFV-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-115" value="HeartbeatTask" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="8" y="2906" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-117" target="NtYE-VMm6slHbtxHCwFV-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-117" value="定时：3s一次&lt;br&gt;30s未收到成功响应，则认为coordinator不可用，需要重新找coordinator" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="3010" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-119" target="NtYE-VMm6slHbtxHCwFV-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-119" value="异步给coordinator发送心跳：HEARTBEAT请求&lt;br&gt;groupId,generation,memberId" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="3116" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-120" target="NtYE-VMm6slHbtxHCwFV-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-120" value="异步响应&lt;br&gt;如果是错误：REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID，则设置rejoinNeeded=true，下次poll时，需要重新join group" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="3246" width="250" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-121" target="NtYE-VMm6slHbtxHCwFV-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-121" value="如果成功，更新接收响应时间" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="333" y="3283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-123" target="NtYE-VMm6slHbtxHCwFV-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="393" y="3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-123" value="异步产生下一次任务，待调度" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="333" y="3143" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
