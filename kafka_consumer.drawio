@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-10T10:39:54.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8cDy1Aj0gym77qtyYWk2" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T13:27:19.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rTmiOL00bPnUEnPekkRp" version="20.2.4" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
     <mxGraphModel dx="2597" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,6 +458,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="2160" />
+              <mxPoint x="620" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-126" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="2210" width="120" height="80" as="geometry" />
         </mxCell>
@@ -592,6 +600,60 @@
         </mxCell>
         <mxCell id="NtYE-VMm6slHbtxHCwFV-163" value="error_code: REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="2100" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-165" value="zk" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-167" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1830" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-168" value="broker1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1855" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-169" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1855" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-170" value="broker3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1855" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-174" value="GROUP_COORDINATOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-171" target="NtYE-VMm6slHbtxHCwFV-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-171" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-172" target="NtYE-VMm6slHbtxHCwFV-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-177" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-175">
+          <mxGeometry x="-0.3333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-172" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-173" target="NtYE-VMm6slHbtxHCwFV-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1930" />
+              <mxPoint x="1140" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-178" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-176">
+          <mxGeometry x="-0.6627" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-173" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-179" value="kafka cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-180" value="找负载最小的node，获取对应的group coordinator，得到响应后立马建联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1990" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
