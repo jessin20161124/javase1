@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T14:28:29.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="o8zJrtMxMfufPaUP68uu" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T05:06:29.642Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lMB5gaOoV4mMI8Hh2Zhb" version="21.2.3" type="github">
   <diagram id="zC-SaXTr_2-HBtyZ_m58" name="第 1 页">
-    <mxGraphModel dx="2597" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2608" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,45 +65,45 @@
         <mxCell id="IlKKcgGs-gU_iAphdW2g-23" value="KafkaConsumer&lt;br&gt;线程不安全" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-1" target="NtYE-VMm6slHbtxHCwFV-2">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-1" target="NtYE-VMm6slHbtxHCwFV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-1" value="pollOnce()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-1" value="pollOnce()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-225" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-4">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-27">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-2" target="NtYE-VMm6slHbtxHCwFV-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-2" value="coordinator.ensureCoordinatorReady()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-2" value="coordinator.ensureCoordinatorReady()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-280" y="415" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-5">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-7" value="成功获取后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-6">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-7" value="成功获取后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0489" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-9">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-4" target="NtYE-VMm6slHbtxHCwFV-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-4" value="当coordinator不存在时或者不可用时，找到client中负载最小节点，发送GROUP_COORDINATOR&lt;br&gt;request（groupId）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-4" value="当coordinator不存在时或者不可用时，找到client中负载最小节点，发送GROUP_COORDINATOR&lt;br&gt;request（groupId）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-665" y="235" width="290" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-5" value="立马建立连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-5" value="立马建立连接" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-810" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-9" target="NtYE-VMm6slHbtxHCwFV-17">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-9" target="NtYE-VMm6slHbtxHCwFV-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-9" value="NetworkClient.poll立马将请求发送出去" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-9" value="NetworkClient.poll立马将请求发送出去" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-580" y="420" width="120" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-22" target="NtYE-VMm6slHbtxHCwFV-9">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-22" target="NtYE-VMm6slHbtxHCwFV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-460" y="750" as="sourcePoint" />
             <Array as="points">
@@ -112,13 +112,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-17" target="NtYE-VMm6slHbtxHCwFV-22">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-17" target="NtYE-VMm6slHbtxHCwFV-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-17" value="不断poll，直到收到响应" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-17" value="不断poll，直到收到响应" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-570" y="520" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-22" target="NtYE-VMm6slHbtxHCwFV-4">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-22" target="NtYE-VMm6slHbtxHCwFV-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-370" y="480" as="targetPoint" />
             <Array as="points">
@@ -128,53 +128,53 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-22" value="不断循环，直到得到coordinator" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-22" value="不断循环，直到得到coordinator" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-570" y="660" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-27" target="NtYE-VMm6slHbtxHCwFV-65">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-27" target="NtYE-VMm6slHbtxHCwFV-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-27" value="对于自动分区&lt;br&gt;coordinator.ensurePartitionAssignment&lt;br&gt;等待join &amp;amp;sync group请求发送出去，阻塞得到当前consumer分区订阅结果，设置needsFetchCommittedOffsets=true&lt;br&gt;见2" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-27" value="对于自动分区&lt;br&gt;coordinator.ensurePartitionAssignment&lt;br&gt;等待join &amp;amp;sync group请求发送出去，阻塞得到当前consumer分区订阅结果，设置needsFetchCommittedOffsets=true&lt;br&gt;见2" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-310" y="540" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-29" target="NtYE-VMm6slHbtxHCwFV-94">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-29" target="NtYE-VMm6slHbtxHCwFV-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-29" value="2. 当需要重新加入group&lt;br&gt;rejoinNeeded==true(例如memberId/generation不可识别) || needsFetchCommittedOffsets=true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-29" value="2. 当需要重新加入group&lt;br&gt;rejoinNeeded==true(例如memberId/generation不可识别) || needsFetchCommittedOffsets=true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-730" y="830" width="280" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-30" target="NtYE-VMm6slHbtxHCwFV-32">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-30" target="NtYE-VMm6slHbtxHCwFV-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-30" value="ensureCoordinatorReady" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-30" value="ensureCoordinatorReady" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-670" y="1275" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-32" target="NtYE-VMm6slHbtxHCwFV-34">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-32" target="NtYE-VMm6slHbtxHCwFV-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-32" value="给coordinator发送JOIN_GROUP请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-32" value="给coordinator发送JOIN_GROUP请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-650" y="1395" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-34" target="NtYE-VMm6slHbtxHCwFV-36">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-34" target="NtYE-VMm6slHbtxHCwFV-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-38" value="join group成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-37">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-38" value="join group成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-37" vertex="1" connectable="0">
           <mxGeometry x="-0.25" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-34" value="携带每个consumer支持的partition assignor list和对应的user metadata，带上对应的sessionTimeoutMs，订阅的topic list&lt;br&gt;JoinGroupRequest(groupId,this.sessionTimeoutMs,this.memberId,&lt;br&gt;protocolType(),metadata());" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-34" value="携带每个consumer支持的partition assignor list和对应的user metadata，带上对应的sessionTimeoutMs，订阅的topic list&lt;br&gt;JoinGroupRequest(groupId,this.sessionTimeoutMs,this.memberId,&lt;br&gt;protocolType(),metadata());" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-795" y="1500" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-41">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-43" value="如果当前consumer被选为leader&lt;br&gt;memberId==leaderId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-42">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-43" value="如果当前consumer被选为leader&lt;br&gt;memberId==leaderId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-42" vertex="1" connectable="0">
           <mxGeometry x="-0.3034" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.91;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-44">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.91;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-36" target="NtYE-VMm6slHbtxHCwFV-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-430" y="1980" />
@@ -182,113 +182,113 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-57" value="非leader，groupAssignment传递空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-56">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-57" value="非leader，groupAssignment传递空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-56" vertex="1" connectable="0">
           <mxGeometry x="-0.6701" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-36" value="响应得到当前KafkaConsumer实例的memberId，新的generation，&lt;br&gt;group protocol是分区策略的name，assignor" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-36" value="响应得到当前KafkaConsumer实例的memberId，新的generation，&lt;br&gt;group protocol是分区策略的name，assignor" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-795" y="1640" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-44">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-48">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-41" target="NtYE-VMm6slHbtxHCwFV-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-41" value="根据选定的assignor&lt;span style=&quot;font-size: 10px;&quot;&gt;，以及当前group memberId以及订阅的topic list + user_data，&lt;/span&gt;执行分区分配" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-41" value="根据选定的assignor&lt;span style=&quot;font-size: 10px;&quot;&gt;，以及当前group memberId以及订阅的topic list + user_data，&lt;/span&gt;执行分区分配" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-880" y="1820" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-44" target="NtYE-VMm6slHbtxHCwFV-46">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-44" target="NtYE-VMm6slHbtxHCwFV-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-44" value="发送sync group request&lt;br&gt;SyncGroupRequest(groupId, generation, memberId, groupAssignment)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-44" value="发送sync group request&lt;br&gt;SyncGroupRequest(groupId, generation, memberId, groupAssignment)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-760" y="2080" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-46" target="NtYE-VMm6slHbtxHCwFV-58">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-46" target="NtYE-VMm6slHbtxHCwFV-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-46" value="得到当前consumer分配结果" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-46" value="得到当前consumer分配结果" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-675" y="2170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-48" target="NtYE-VMm6slHbtxHCwFV-50">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-48" target="NtYE-VMm6slHbtxHCwFV-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-48" value="当前group所有订阅的topic:&lt;br&gt;subscriptions.groupSubscribe" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-48" value="当前group所有订阅的topic:&lt;br&gt;subscriptions.groupSubscribe" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-610" y="1820" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-50" target="NtYE-VMm6slHbtxHCwFV-52">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-50" target="NtYE-VMm6slHbtxHCwFV-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-50" value="leader会关注整个group，所有的订阅的topic&lt;br&gt;metadata.setTopics(&lt;br&gt;this.subscriptions.groupSubscription())" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-50" value="leader会关注整个group，所有的订阅的topic&lt;br&gt;metadata.setTopics(&lt;br&gt;this.subscriptions.groupSubscription())" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-360" y="1820" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-52" target="NtYE-VMm6slHbtxHCwFV-54">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-52" target="NtYE-VMm6slHbtxHCwFV-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-52" value="等待metadata请求发出去，并得到响应，得到更新client.ensureFreshMetadata()" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-52" value="等待metadata请求发出去，并得到响应，得到更新client.ensureFreshMetadata()" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-50" y="1820" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-54" value="该assignor根据cluster详细元信息，member以及对应订阅的topic进行分配，得到group里每个member的topic_partition list" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-54" value="该assignor根据cluster详细元信息，member以及对应订阅的topic进行分配，得到group里每个member的topic_partition list" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="230" y="1820" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-58" target="NtYE-VMm6slHbtxHCwFV-61">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-58" target="NtYE-VMm6slHbtxHCwFV-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-58" value="更新consumer的消费的topic_partition列表：&lt;br&gt;subscriptions.assignFromSubscribed(assignment.partitions());" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-58" value="更新consumer的消费的topic_partition列表：&lt;br&gt;subscriptions.assignFromSubscribed(assignment.partitions());" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-820" y="2310" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-60" value="当前consumer订阅tp以及对应的订阅状态，offset&lt;br&gt;Map&amp;lt;TopicPartition, TopicPartitionState&amp;gt; assignment&lt;br&gt;TopicPartitionState，每个tp的position为当前本地拉取的位置，&amp;gt;= 本地提交的位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-60" value="当前consumer订阅tp以及对应的订阅状态，offset&lt;br&gt;Map&amp;lt;TopicPartition, TopicPartitionState&amp;gt; assignment&lt;br&gt;TopicPartitionState，每个tp的position为当前本地拉取的位置，&amp;gt;= 本地提交的位置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="600" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-61" target="NtYE-VMm6slHbtxHCwFV-63">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-61" target="NtYE-VMm6slHbtxHCwFV-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-61" value="如果开启自动提交offset，&lt;br&gt;autoCommitTask.reschedule" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-61" value="如果开启自动提交offset，&lt;br&gt;autoCommitTask.reschedule" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-710" y="2450" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-63" value="ConsumerRebalanceListener&lt;br&gt;#onPartitionsAssigned" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-63" value="ConsumerRebalanceListener&lt;br&gt;#onPartitionsAssigned" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-742.5" y="2590" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-65" target="NtYE-VMm6slHbtxHCwFV-67">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-65" target="NtYE-VMm6slHbtxHCwFV-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-69" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;needsFetchCommittedOffsets=true&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-68">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-69" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;needsFetchCommittedOffsets=true&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-68" vertex="1" connectable="0">
           <mxGeometry y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-65" value="如果当前consumer订阅的分区，有没有position的，!subscriptions.hasAllFetchPositions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-65" value="如果当前consumer订阅的分区，有没有position的，!subscriptions.hasAllFetchPositions" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-277.5" y="690" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-67" target="NtYE-VMm6slHbtxHCwFV-110">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-67" target="NtYE-VMm6slHbtxHCwFV-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-67" value="启动时获取到订阅分区已经commit的信息，这里没有设置position&lt;br&gt;coordinator.refreshCommittedOffsetsIfNeeded()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-67" value="启动时获取到订阅分区已经commit的信息，这里没有设置position&lt;br&gt;coordinator.refreshCommittedOffsetsIfNeeded()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-300" y="805" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-70" target="NtYE-VMm6slHbtxHCwFV-72">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-70" target="NtYE-VMm6slHbtxHCwFV-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-70" value="对于未消费过的分区，使用latest，向leader节点发送LIST_OFFSETS请求，抓取最新的分区写入offset，设置position；对于已经commit过的，使用commit信息更新position&lt;br&gt;fetcher.updateFetchPositions(partitions);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-70" value="对于未消费过的分区，使用latest，向leader节点发送LIST_OFFSETS请求，抓取最新的分区写入offset，设置position；对于已经commit过的，使用commit信息更新position&lt;br&gt;fetcher.updateFetchPositions(partitions);" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-290" y="1040" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-72" target="NtYE-VMm6slHbtxHCwFV-74">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-72" target="NtYE-VMm6slHbtxHCwFV-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-72" value="执行定时任务client.executeDelayedTasks" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-72" value="执行定时任务client.executeDelayedTasks" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-260" y="1150" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-74" target="NtYE-VMm6slHbtxHCwFV-76">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-74" target="NtYE-VMm6slHbtxHCwFV-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-74" value="从本地拉取，completedFetches list，不会发起网络请求&lt;br&gt;fetcher.fetchedRecords()&lt;br&gt;一次不能超过maxPollRecords，取走后更新position，也就是下一个可以抓取的位置，nextOffset=&lt;br&gt;该分区最后一条数据+1&lt;br&gt;subscriptions.position(partitionRecords.partition, nextOffset);" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-74" value="从本地拉取，completedFetches list，不会发起网络请求&lt;br&gt;fetcher.fetchedRecords()&lt;br&gt;一次不能超过maxPollRecords，取走后更新position，也就是下一个可以抓取的位置，nextOffset=&lt;br&gt;该分区最后一条数据+1&lt;br&gt;subscriptions.position(partitionRecords.partition, nextOffset);" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-360" y="1260" width="390" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-76" target="NtYE-VMm6slHbtxHCwFV-87">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-76" target="NtYE-VMm6slHbtxHCwFV-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-76" target="NtYE-VMm6slHbtxHCwFV-78">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-76" target="NtYE-VMm6slHbtxHCwFV-78" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="1425" />
@@ -296,148 +296,148 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-93" value="一次尽量多拉取缓存，&lt;br&gt;避免多次拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-92">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-93" value="一次尽量多拉取缓存，&lt;br&gt;避免多次拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-92" vertex="1" connectable="0">
           <mxGeometry x="-0.412" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-76" value="如果本地已经没有数据，发出FETCH请求&lt;br&gt;fetcher.sendFetches()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-76" value="如果本地已经没有数据，发出FETCH请求&lt;br&gt;fetcher.sendFetches()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="1380" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-78" target="NtYE-VMm6slHbtxHCwFV-79">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-78" target="NtYE-VMm6slHbtxHCwFV-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-78" value="找到订阅的分区" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-78" value="找到订阅的分区" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="1180" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-79" target="NtYE-VMm6slHbtxHCwFV-81">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-79" target="NtYE-VMm6slHbtxHCwFV-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-79" value="如果已经抓取到本地，但是还没消费完，则需要把本地未消费完的分区先排除掉" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-79" value="如果已经抓取到本地，但是还没消费完，则需要把本地未消费完的分区先排除掉" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="120" y="1320" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-81" target="NtYE-VMm6slHbtxHCwFV-83">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-81" target="NtYE-VMm6slHbtxHCwFV-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-81" value="从cluster找到该分区的leader节点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-81" value="从cluster找到该分区的leader节点" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="130" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-83" target="NtYE-VMm6slHbtxHCwFV-85">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-83" target="NtYE-VMm6slHbtxHCwFV-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-83" value="找到该partition的订阅位置，每个分区最多抓取fetchSize条：subscriptions.position(partition)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-83" value="找到该partition的订阅位置，每个分区最多抓取fetchSize条：subscriptions.position(partition)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="70" y="1520" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-85" value="收到响应后，追加到completedFetches list" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-85" value="收到响应后，追加到completedFetches list" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="130" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-87" target="NtYE-VMm6slHbtxHCwFV-89">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-87" target="NtYE-VMm6slHbtxHCwFV-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-87" value="发送网络请求client.poll(timeout, now);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-87" value="发送网络请求client.poll(timeout, now);" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="1520" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-89" value="fetcher.fetchedRecords()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-89" value="fetcher.fetchedRecords()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="1660" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-98" value="阻塞得到响应" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-94" target="NtYE-VMm6slHbtxHCwFV-97">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-98" value="阻塞得到响应" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-94" target="NtYE-VMm6slHbtxHCwFV-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-94" value="将本地订阅的所有老的tp的position同步到coordinator：OFFSET_COMMIT请求&lt;br&gt;groupId,generation,memberId,offsetData" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-94" value="将本地订阅的所有老的tp的position同步到coordinator：OFFSET_COMMIT请求&lt;br&gt;groupId,generation,memberId,offsetData" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-740" y="960" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-97" target="NtYE-VMm6slHbtxHCwFV-100">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-97" target="NtYE-VMm6slHbtxHCwFV-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-97" value="更新该partition的commit位置，本地缓存&lt;br&gt;subscriptions.committed(tp, offsetAndMetadata);" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-97" value="更新该partition的commit位置，本地缓存&lt;br&gt;subscriptions.committed(tp, offsetAndMetadata);" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-680" y="1070" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-100" target="NtYE-VMm6slHbtxHCwFV-30">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-100" target="NtYE-VMm6slHbtxHCwFV-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-100" value="listener.onPartitionsRevoked(revoked);" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-100" value="listener.onPartitionsRevoked(revoked);" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-720" y="1160" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-103" target="NtYE-VMm6slHbtxHCwFV-104">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-103" target="NtYE-VMm6slHbtxHCwFV-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-103" value="AutoCommitTask" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-103" value="AutoCommitTask" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-430" y="2900" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-104" target="NtYE-VMm6slHbtxHCwFV-106">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-104" target="NtYE-VMm6slHbtxHCwFV-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-104" value="定时提交：5s一次" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-104" value="定时提交：5s一次" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-435" y="2990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-106" target="NtYE-VMm6slHbtxHCwFV-108">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-106" target="NtYE-VMm6slHbtxHCwFV-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-106" value="异步将本地订阅的所有的tp的position同步到coordinator：OFFSET_COMMIT请求&lt;br&gt;groupId,generation,memberId,offsetData" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-106" value="异步将本地订阅的所有的tp的position同步到coordinator：OFFSET_COMMIT请求&lt;br&gt;groupId,generation,memberId,offsetData" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-550" y="3110" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-108" value="异步响应&lt;br&gt;成功则更新该partition的commit位置，&lt;br&gt;本地缓存&lt;br&gt;subscriptions.committed(tp, offsetAndMetadata);" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-108" value="异步响应&lt;br&gt;成功则更新该partition的commit位置，&lt;br&gt;本地缓存&lt;br&gt;subscriptions.committed(tp, offsetAndMetadata);" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-500" y="3240" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-112" value="阻塞等待返回" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-110" target="NtYE-VMm6slHbtxHCwFV-70">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-112" value="阻塞等待返回" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-110" target="NtYE-VMm6slHbtxHCwFV-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-110" value="给coordinator发送OFFSET_FETCH&lt;br&gt;groupId，待获取消费位置的partitions" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-110" value="给coordinator发送OFFSET_FETCH&lt;br&gt;groupId，待获取消费位置的partitions" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-300" y="915" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-115" target="NtYE-VMm6slHbtxHCwFV-117">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-115" target="NtYE-VMm6slHbtxHCwFV-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-115" value="HeartbeatTask" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-115" value="HeartbeatTask" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="8" y="2906" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-117" target="NtYE-VMm6slHbtxHCwFV-119">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-117" target="NtYE-VMm6slHbtxHCwFV-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-117" value="定时：3s一次&lt;br&gt;30s未收到成功响应，则认为coordinator不可用，需要重新找coordinator" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-22" y="3010" width="170" height="60" as="geometry" />
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-117" value="定时：3s一次&lt;br&gt;sessionTimeoutMs=30s未收到成功响应，则认为coordinator不可用，需要重新找coordinator" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-22" y="3000" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-119" target="NtYE-VMm6slHbtxHCwFV-120">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-119" target="NtYE-VMm6slHbtxHCwFV-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-119" value="异步给coordinator发送心跳：HEARTBEAT请求&lt;br&gt;groupId,generation,memberId" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-119" value="异步给coordinator发送心跳：HEARTBEAT请求&lt;br&gt;groupId,generation,memberId" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-112" y="3116" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-120" target="NtYE-VMm6slHbtxHCwFV-121">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-120" target="NtYE-VMm6slHbtxHCwFV-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-120" value="异步响应&lt;br&gt;如果是错误：REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID，则设置rejoinNeeded=true，下次poll时，需要重新join group" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-120" value="异步响应&lt;br&gt;如果是错误：REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID，则设置rejoinNeeded=true，下次poll时，需要重新join group" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-62" y="3246" width="250" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-121" target="NtYE-VMm6slHbtxHCwFV-123">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-121" target="NtYE-VMm6slHbtxHCwFV-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-121" value="如果成功，更新接收响应时间" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-121" value="如果成功，更新接收响应时间" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="333" y="3283" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-123" target="NtYE-VMm6slHbtxHCwFV-117">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-123" target="NtYE-VMm6slHbtxHCwFV-117" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="393" y="3040" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-123" value="异步产生下一次任务，待调度" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-123" value="异步产生下一次任务，待调度" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="333" y="3143" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-127">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-127" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="2240" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-134" value="2. joinGroup resp leader" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-133">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-134" value="2. joinGroup resp leader" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-133" vertex="1" connectable="0">
           <mxGeometry x="-0.0109" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-128">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-128" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="360" y="2350" />
@@ -446,19 +446,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-136" value="2. joinGroup resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-135">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-136" value="2. joinGroup resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-135" vertex="1" connectable="0">
           <mxGeometry x="0.2415" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-137" value="2. joinGroup resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-129">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-137" value="2. joinGroup resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-129" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="2230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-165">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-126" target="NtYE-VMm6slHbtxHCwFV-165" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="2160" />
@@ -466,43 +466,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-126" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-126" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="2210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-130" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-127" target="NtYE-VMm6slHbtxHCwFV-126">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-130" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-127" target="NtYE-VMm6slHbtxHCwFV-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-127" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-127" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-131" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-128" target="NtYE-VMm6slHbtxHCwFV-126">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-131" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-128" target="NtYE-VMm6slHbtxHCwFV-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-128" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-128" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="2410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-132" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-129" target="NtYE-VMm6slHbtxHCwFV-126">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-132" value="1. joinGroup req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-129" target="NtYE-VMm6slHbtxHCwFV-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-129" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-129" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-138" value="b. joinGroup req : groupId,sessionTimeoutMs,memberId, assignor list, topic list&lt;br&gt;joinGrup resp: memberId，新的generation，assignor&lt;br&gt;对于leader：&lt;span style=&quot;font-size: 10px;&quot;&gt;当前group memberId以及订阅的topic list + user_data，&lt;/span&gt;执行分区分配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-138" value="b. joinGroup req : groupId,sessionTimeoutMs,memberId, assignor list, topic list&lt;br&gt;joinGrup resp: memberId，新的generation，assignor&lt;br&gt;对于leader：&lt;span style=&quot;font-size: 10px;&quot;&gt;当前group memberId以及订阅的topic list + user_data，&lt;/span&gt;执行分区分配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="2080" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-146">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-146" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="2619" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-140" value="4. syncGroup resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-139">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-140" value="4. syncGroup resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-139" vertex="1" connectable="0">
           <mxGeometry x="-0.0109" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-148">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-148" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="360" y="2729" />
@@ -511,52 +511,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-142" value="4. syncGroup&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-141">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-142" value="4. syncGroup&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-141" vertex="1" connectable="0">
           <mxGeometry x="0.2415" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-143" value="4. syncGroup&lt;br&gt;&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-150">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-143" value="4. syncGroup&lt;br&gt;&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-144" target="NtYE-VMm6slHbtxHCwFV-150" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="2609" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-144" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-144" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="2589" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-145" value="3. syncGroup req assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-146" target="NtYE-VMm6slHbtxHCwFV-144">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-145" value="3. syncGroup req assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-146" target="NtYE-VMm6slHbtxHCwFV-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-146" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-146" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="2679" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-147" value="3. syncGroup&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-148" target="NtYE-VMm6slHbtxHCwFV-144">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-147" value="3. syncGroup&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-148" target="NtYE-VMm6slHbtxHCwFV-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-148" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-148" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="2789" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-149" value="3. syncGroup&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-150" target="NtYE-VMm6slHbtxHCwFV-144">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-149" value="3. syncGroup&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-150" target="NtYE-VMm6slHbtxHCwFV-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-150" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-150" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="2679" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-158">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-158" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="755" y="2241" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-152" value="2. hearbeat resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-151">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-152" value="2. hearbeat resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-151" vertex="1" connectable="0">
           <mxGeometry x="-0.0109" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-160">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-160" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="985" y="2351" />
@@ -565,75 +565,75 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-154" value="2. hearbeat&amp;nbsp;resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-153">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-154" value="2. hearbeat&amp;nbsp;resp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-153" vertex="1" connectable="0">
           <mxGeometry x="0.2415" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-155" value="2. hearbeat&amp;nbsp;resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-162">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-155" value="2. hearbeat&amp;nbsp;resp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-156" target="NtYE-VMm6slHbtxHCwFV-162" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1185" y="2231" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-156" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-156" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="885" y="2211" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-157" value="1. heartbeat req / commit offset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-158" target="NtYE-VMm6slHbtxHCwFV-156">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-157" value="1. heartbeat req / commit offset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-158" target="NtYE-VMm6slHbtxHCwFV-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-158" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-158" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="665" y="2301" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-159" value="1. hearbeat&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-160" target="NtYE-VMm6slHbtxHCwFV-156">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-159" value="1. hearbeat&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-160" target="NtYE-VMm6slHbtxHCwFV-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-160" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-160" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="885" y="2411" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-161" value="1. hearbeat&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-162" target="NtYE-VMm6slHbtxHCwFV-156">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-161" value="1. hearbeat&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-162" target="NtYE-VMm6slHbtxHCwFV-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-162" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-162" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="2301" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-163" value="d. heartbeat&lt;br&gt;error_code: REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-163" value="d. heartbeat&lt;br&gt;error_code: REBALANCE_IN_PROGRESS&lt;br&gt;/ILLEGAL_GENERATION&lt;br&gt;/UNKNOWN_MEMBER_ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="2100" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-165" value="zk" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-165" value="zk" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="2030" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-167" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-167" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1830" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-168" value="broker1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-168" value="broker1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1855" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-169" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-169" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1855" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-170" value="broker3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-170" value="broker3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1855" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-174" value="GROUP_COORDINATOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-171" target="NtYE-VMm6slHbtxHCwFV-168">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-174" value="GROUP_COORDINATOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-171" target="NtYE-VMm6slHbtxHCwFV-168" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-171" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-171" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="1990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-172" target="NtYE-VMm6slHbtxHCwFV-169">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-172" target="NtYE-VMm6slHbtxHCwFV-169" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-177" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-175">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-177" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-175" vertex="1" connectable="0">
           <mxGeometry x="-0.3333" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-172" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-172" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-173" target="NtYE-VMm6slHbtxHCwFV-169">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-173" target="NtYE-VMm6slHbtxHCwFV-169" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1310" y="1930" />
@@ -641,39 +641,39 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-178" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-176">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-178" value="GROUP_COORDINATOR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-176" vertex="1" connectable="0">
           <mxGeometry x="-0.6627" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-173" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-173" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-179" value="kafka cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-179" value="kafka cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="1860" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-180" value="找负载最小的node，获取对应的group coordinator，得到响应后立马建联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-180" value="找负载最小的node，获取对应的group coordinator，得到响应后立马建联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="1990" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-181" value="c. sync gruop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-181" value="c. sync gruop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="188" y="2530" width="112" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-182" value="a. group coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-182" value="a. group coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="1790" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-190">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-190" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="793" y="2620" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-184" value="4. fetch offset&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-183">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-184" value="4. fetch offset&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-183" vertex="1" connectable="0">
           <mxGeometry x="-0.0109" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-192">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-192" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1023" y="2730" />
@@ -682,40 +682,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-186" value="4. fetch offset&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NtYE-VMm6slHbtxHCwFV-185">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-186" value="4. fetch offset&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NtYE-VMm6slHbtxHCwFV-185" vertex="1" connectable="0">
           <mxGeometry x="0.2415" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-187" value="4. fetch offset&lt;br&gt;&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-194">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-187" value="4. fetch offset&lt;br&gt;&amp;nbsp;resp&amp;nbsp;&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;topic_partition_list&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NtYE-VMm6slHbtxHCwFV-188" target="NtYE-VMm6slHbtxHCwFV-194" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1223" y="2610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-188" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-188" value="group coordinator&lt;br&gt;broker" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="923" y="2590" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-189" value="3. fetch offset req assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-190" target="NtYE-VMm6slHbtxHCwFV-188">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-189" value="3. fetch offset req assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-190" target="NtYE-VMm6slHbtxHCwFV-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-190" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-190" value="clientA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="703" y="2680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-191" value="3. fetch offset&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-192" target="NtYE-VMm6slHbtxHCwFV-188">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-191" value="3. fetch offset&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-192" target="NtYE-VMm6slHbtxHCwFV-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-192" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-192" value="clientB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="923" y="2790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-193" value="3. fetch offset&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NtYE-VMm6slHbtxHCwFV-194" target="NtYE-VMm6slHbtxHCwFV-188">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-193" value="3. fetch offset&amp;nbsp;req" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NtYE-VMm6slHbtxHCwFV-194" target="NtYE-VMm6slHbtxHCwFV-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-194" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-194" value="clientC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1163" y="2680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NtYE-VMm6slHbtxHCwFV-195" value="e. fetch offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NtYE-VMm6slHbtxHCwFV-195" value="e. fetch offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="2530" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
