@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T13:41:04.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_TMNX_ohRlPULrS7phDX" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T13:43:16.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Byhn2mjSzdVUgkRF9b4t" version="21.2.9" type="github">
   <diagram name="第 1 页" id="ItaRV95mY0Xa-xprcMig">
     <mxGraphModel dx="1781" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,6 +34,9 @@
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-6" value="EntityCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="419" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-8" target="C3GOMGTe3OPLfGUiWCGx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-8" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -61,8 +64,11 @@
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-10" value="LogInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="70" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-11" target="C3GOMGTe3OPLfGUiWCGx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-11" value="CommandExecutor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-100" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-12" target="C3GOMGTe3OPLfGUiWCGx-13">
           <mxGeometry relative="1" as="geometry" />
@@ -96,6 +102,12 @@
         </mxCell>
         <mxCell id="C3GOMGTe3OPLfGUiWCGx-28" value="TransactionContextInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-33" value="1.包装在TransactionTemplate中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-34" value="2.先运行command&lt;br&gt;再运行agenda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-10" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
