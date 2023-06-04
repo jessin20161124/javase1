@@ -1,53 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T14:04:23.951Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1tBoegTxvw9fVDm3Zj0e" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T12:18:04.474Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="33AU7Rd9W5NVWPpRVfAN" version="21.3.5" type="github">
   <diagram name="第 1 页" id="ItaRV95mY0Xa-xprcMig">
     <mxGraphModel dx="1781" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="40" width="980" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="180" width="370" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-1" target="C3GOMGTe3OPLfGUiWCGx-2">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-1" target="C3GOMGTe3OPLfGUiWCGx-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-1" value="EntityManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-1" value="EntityManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="199" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-2" target="C3GOMGTe3OPLfGUiWCGx-4">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-2" target="C3GOMGTe3OPLfGUiWCGx-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-2" target="C3GOMGTe3OPLfGUiWCGx-6">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-2" target="C3GOMGTe3OPLfGUiWCGx-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-2" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-2" value="DataManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="299" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-4" target="C3GOMGTe3OPLfGUiWCGx-26">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-4" target="C3GOMGTe3OPLfGUiWCGx-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-4" value="DbSqlSession" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-4" value="DbSqlSession" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="419" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-6" value="EntityCache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-6" value="EntityCache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="419" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-8" target="C3GOMGTe3OPLfGUiWCGx-11">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-8" target="C3GOMGTe3OPLfGUiWCGx-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-8" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-8" value="Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-9" target="C3GOMGTe3OPLfGUiWCGx-19">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-9" target="C3GOMGTe3OPLfGUiWCGx-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-9" target="C3GOMGTe3OPLfGUiWCGx-23">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-9" target="C3GOMGTe3OPLfGUiWCGx-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="170" />
@@ -55,59 +55,62 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-9" value="Command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-9" value="Command" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-10" target="C3GOMGTe3OPLfGUiWCGx-12">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-10" target="C3GOMGTe3OPLfGUiWCGx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-10" value="LogInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-10" value="LogInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-180" y="70" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-11" target="C3GOMGTe3OPLfGUiWCGx-21">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-11" target="C3GOMGTe3OPLfGUiWCGx-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-11" value="CommandExecutor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-11" value="CommandExecutor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-12" target="C3GOMGTe3OPLfGUiWCGx-13">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-12" target="C3GOMGTe3OPLfGUiWCGx-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-12" value="SpringTransactionInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-12" value="SpringTransactionInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="70" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-13" target="C3GOMGTe3OPLfGUiWCGx-28">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-13" target="C3GOMGTe3OPLfGUiWCGx-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-13" value="CommandContextInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-13" value="CommandContextInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="70" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-14" target="C3GOMGTe3OPLfGUiWCGx-9">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-14" target="C3GOMGTe3OPLfGUiWCGx-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-14" value="CommandInvoker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-14" value="CommandInvoker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="70" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-22" value="1.更新sql时，更新缓存，先暂存，标记entity状态。&lt;br&gt;2.读sql，从db读取，然后基于id从缓存刷新&lt;br&gt;3. 命令结束时，执行db操作，批量等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-22" value="1.更新sql时，更新缓存，先暂存，标记entity状态。&lt;br&gt;2.读sql，从db读取，然后基于id从缓存刷新&lt;br&gt;3. 命令结束时，执行db操作，批量等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="250" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-23" value="CommandContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-23" value="CommandContext" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="199" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-26" value="MybatisSqlSession" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-26" value="MybatisSqlSession" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3GOMGTe3OPLfGUiWCGx-28" target="C3GOMGTe3OPLfGUiWCGx-14">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3GOMGTe3OPLfGUiWCGx-28" target="C3GOMGTe3OPLfGUiWCGx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-28" value="TransactionContextInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-28" value="TransactionContextInterceptor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="70" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-33" value="1.包装在TransactionTemplate中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-33" value="1.包装在TransactionTemplate中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-55" y="-10" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C3GOMGTe3OPLfGUiWCGx-34" value="2.先运行command&lt;br&gt;再运行agenda(流程驱动实现)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="C3GOMGTe3OPLfGUiWCGx-34" value="2.先运行command&lt;br&gt;再运行agenda(流程驱动实现)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="-10" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GW6K2GJ46ZcvhIS8erOe-1" value="CommandContext放入到threadLocal的stack中，执行完后pop&lt;br&gt;如果复用了context，&lt;br&gt;则第一个cmd统一刷db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-10" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
