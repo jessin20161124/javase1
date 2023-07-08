@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-08T10:39:00.335Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="chEipaF2EWNrajt3bnor" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-08T10:46:19.056Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uiZCY1aDwhuUYyVoHDBa" version="21.6.1" type="github">
   <diagram name="第 1 页" id="g_9M_log5X6aWmikNUvo">
     <mxGraphModel dx="920" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,6 +74,11 @@
         <mxCell id="UC14t1Heg8whz1p-dgPh-41" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="489" y="529" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KJ4wlhPmhIrhkU27Ahk6-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="UC14t1Heg8whz1p-dgPh-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UC14t1Heg8whz1p-dgPh-42" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="239" y="679" width="60" height="30" as="geometry" />
         </mxCell>
@@ -126,7 +131,7 @@
         <mxCell id="VYsM3-79eUi0ACkRKWDm-14" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="239" y="825" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FSnQ9Tplb7-EVjzZmqRW-1" value="场景3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FSnQ9Tplb7-EVjzZmqRW-1" value="场景3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="891" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
