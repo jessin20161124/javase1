@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-07-08T09:49:58.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="DGMFBNZOxVO2RtrAI5Il" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-08T10:14:31.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dvM8YHOIVgMQCM9WOJpA" version="21.3.8" type="github">
   <diagram name="第 1 页" id="g_9M_log5X6aWmikNUvo">
-    <mxGraphModel>
+    <mxGraphModel dx="920" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UC14t1Heg8whz1p-dgPh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UC14t1Heg8whz1p-dgPh-15" target="UC14t1Heg8whz1p-dgPh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-26" value="优先" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UC14t1Heg8whz1p-dgPh-23">
+          <mxGeometry x="-0.0118" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UC14t1Heg8whz1p-dgPh-15" target="UC14t1Heg8whz1p-dgPh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UC14t1Heg8whz1p-dgPh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-19" value="泳道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-20" value="基线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-21" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-22" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-27" value="tmall泳道环境：&lt;br&gt;kafka消息会加上泳道id，应该是同一个topic，不同group消费。泳道发送的消息，优先给对应泳道的消费者，即使是release分支，不存在泳道消费者时才是基线消费。这里需要中心化记录这个泳道是否有消费者（健康检查？）&lt;br&gt;基线发送的消息，只能给基线消费&lt;br&gt;基线一般是所有机器都部署（release），泳道是只部署一部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="720" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-28" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-29" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="479" y="504" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UC14t1Heg8whz1p-dgPh-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="229" y="654" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="479" y="654" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-38" value="泳道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="149" y="529" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-39" value="基线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="149" y="679" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-41" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="489" y="529" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-42" value="生产者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="679" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-43" value="消费者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="489" y="679" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UC14t1Heg8whz1p-dgPh-44" value="只改动了消费者，不部署生产者，泳道无法消费到消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="189" y="490" width="300" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
