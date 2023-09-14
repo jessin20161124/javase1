@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T12:14:25.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XXMREEBjRWzvjkznuSqN" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T02:22:43.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iH-Wd3N-49mpjXO1_dF7" version="21.6.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1783" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1804" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
         <mxCell id="ljNqTBHzjzzW8Y34iLLb-109" value="订单商品表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="292.5" y="535" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ljNqTBHzjzzW8Y34iLLb-112" value="商品id/货品id/规格/图片url" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ljNqTBHzjzzW8Y34iLLb-112" value="商品id/货品id/规格/图片url，评论" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="540" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ljNqTBHzjzzW8Y34iLLb-118" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ljNqTBHzjzzW8Y34iLLb-116" target="ljNqTBHzjzzW8Y34iLLb-117" edge="1">
